@@ -3,7 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "data_reverse"
+require "reverse_j"
 
 module Dummy
   class Application < Rails::Application
